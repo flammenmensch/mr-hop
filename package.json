@@ -1,0 +1,23 @@
+{
+  "name": "mr-hop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Flammenmensch <maleventum@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --content-base build/ --progress --colors --watch"
+  },
+  "dependencies": {
+    "phaser-ce": "^2.8.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "expose-loader": "^0.7.3",
+    "webpack": "^3.5.6",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
